@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.082);
+
+}
+
+#card {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: rgba(0, 0, 0, 0.521);
+    max-width: 500px;
+    overflow: hidden;
+    border-radius: 20px;
+
+}
+
+#display {
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.329);
+    color: white;
+
+}
+
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+
+    color: white;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.479);
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+button:active {
+    background-color: rgba(0, 0, 0, 0.089);
+}
+
+.operator-btn {
+    background-color: rgba(255, 255, 0, 0.466);
+}
+
+.operator-btn:hover {
+    background-color: rgba(255, 255, 0, 0.295);
+}
+
+.operator-btn:active {
+    background-color: rgba(255, 255, 0, 0.178);
+}
